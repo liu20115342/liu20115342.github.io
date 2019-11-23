@@ -30,7 +30,8 @@ jobs:
         git config --global user.email "liujian394@163.com"
         git config --global user.name "liujian"
         npm install
-    - name: deploy
+    - name: build
       run: |
         npm run b
+    - name: deploy
         npm run d
