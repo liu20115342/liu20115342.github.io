@@ -34,4 +34,5 @@ jobs:
       run: |
         npm run b
     - name: deploy
+      run: |
         npm run d
