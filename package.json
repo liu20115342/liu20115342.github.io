@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "b": "hexo generate",
     "c": "hexo clean",
     "d": "hexo deploy",
-    "server": "hexo server"
+    "s": "hexo server"
   },
   "hexo": {
     "version": "4.0.0"
