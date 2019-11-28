@@ -1,33 +1,45 @@
-## Quick Start
+### 环境
 
-### Create a new post
+> node 环境下使用 yarn 或 npm
 
-``` bash
-$ hexo new "My New Post"
+### 新建一个博客
+
+```bash
+yarn new "My New Post"
+# 或
+npm run new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+### 草稿页合并到发布页
 
-### Run server
-
-``` bash
-$ hexo server
+```bash
+yarn push draft "page name"
+# 或
+npm run push draft "page name"
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+### 启动 server 本地服务默认开启 debug draft
 
-### Generate static files
-
-``` bash
-$ hexo generate
+```bash
+yarn s
+# 或
+npm run s
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+### 构建静态页
 
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
+```bash
+yarn b
+# 或
+npm run b
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+### 发布
+
+```bash
+yarn d
+# 或
+npm run d
+```
+
+> [官方文档](https://hexo.io/docs/)
