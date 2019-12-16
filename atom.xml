@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Carle</title>
+  
+  <subtitle>技术分享</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.459263372.xyz/"/>
+  <updated>2019-12-16T03:49:37.342Z</updated>
+  <id>http://blog.459263372.xyz/</id>
+  
+  <author>
+    <name>Carle</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>script标签</title>
+    <link href="http://blog.459263372.xyz/2019/12/16/script%E6%A0%87%E7%AD%BE/"/>
+    <id>http://blog.459263372.xyz/2019/12/16/script%E6%A0%87%E7%AD%BE/</id>
+    <published>2019-12-16T03:28:31.000Z</published>
+    <updated>2019-12-16T03:49:37.342Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="script标签"><a href="#script标签" class="headerlink" title="script标签"></a>script标签</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><blockquote><p>向HTML页面中插入Javascript的主要方法，就是使用<code>&lt;script&gt;</code>元素</p></blockquote><p>HTML 4.01为<code>&lt;script&gt;</code>标签定义了6个属性</p><ul><li>async</li><li>charset</li><li>defer</li><li>language</li><li>src</li><li>type</li></ul><h4 id="async"><a href="#async" class="headerlink" title="async"></a>async</h4><blockquote><p>可选</p></blockquote><p>表示因该立刻下载脚本，但是不应妨碍页面得其他操作，不如下载其他资源或等待加载其他脚本，只对外部脚本文件使用。</p><h4 id="charset"><a href="#charset" class="headerlink" title="charset"></a>charset</h4><blockquote><p>可选</p></blockquote><p>表示通过src属性指定的代码的字符集，由于大多数浏览器会忽略它的值，因此这个属性很少有人用。</p><h4 id="defer"><a href="#defer" class="headerlink" title="defer"></a>defer</h4><blockquote><p>可选</p></blockquote><p>便是脚本可以延迟到人当完全被解析和显示之后再执行。只对外部脚本有效。IE7及更早版本对嵌入脚本也支持这个属性</p><h4 id="language"><a href="#language" class="headerlink" title="language"></a>language</h4><blockquote><p>已废弃</p></blockquote><p>原来用于表示编写代码使用的脚本语言（如JavaScript、JavaScript1.2或VBScript）。大多数浏览器会忽略这个属性</p><h4 id="src"><a href="#src" class="headerlink" title="src"></a>src</h4><blockquote><p>可选</p></blockquote><p>表示包含要执行代码的外部文件</p><h4 id="type"><a href="#type" class="headerlink" title="type"></a>type</h4><blockquote><p>可选</p></blockquote><p>可以看出是language的代替属性，表示编写代码使用的脚本语言的内容类型（也就是称为MIME类型）。如果没有这个属性默认为<code>text/javascript</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;script标签&quot;&gt;&lt;a href=&quot;#script标签&quot; class=&quot;headerlink&quot; title=&quot;script标签&quot;&gt;&lt;/a&gt;script标签&lt;/h1&gt;&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+    
+    
+      <category term="js" scheme="http://blog.459263372.xyz/tags/js/"/>
+    
+      <category term="javascript高级程序设计笔记" scheme="http://blog.459263372.xyz/tags/javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>node链接mysql</title>
+    <link href="http://blog.459263372.xyz/2019/11/28/node%E9%93%BE%E6%8E%A5mysql/"/>
+    <id>http://blog.459263372.xyz/2019/11/28/node%E9%93%BE%E6%8E%A5mysql/</id>
+    <published>2019-11-28T08:23:40.000Z</published>
+    <updated>2019-12-16T03:49:37.342Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;安装依赖&quot;&gt;&lt;a href=&quot;#安装依赖&quot; class=&quot;headerlink&quot; title=&quot;安装依赖&quot;&gt;&lt;/a&gt;安装依赖&lt;/h3&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="node" scheme="http://blog.459263372.xyz/tags/node/"/>
+    
+  </entry>
+  
+</feed>
